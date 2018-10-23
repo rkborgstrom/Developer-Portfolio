@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "Ryan Borgstrom's Developer | Designer Portfolio",
   "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "html": "^1.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,9 +23,5 @@
   "bugs": {
     "url": "https://github.com/rkborgstrom/Developer-Portfolio/issues"
   },
-  "homepage": "https://github.com/rkborgstrom/Developer-Portfolio#readme",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4"
-  }
+  "homepage": "https://github.com/rkborgstrom/Developer-Portfolio#readme"
 }
