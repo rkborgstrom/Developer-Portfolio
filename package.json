@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "Ryan Borgstrom's Developer | Designer Portfolio",
   "main": "app.js",
+  
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "path": "^0.12.7"
   },
+
   "scripts": {
-    "start": "node app.js"},
-  "devDependencies": {},
+    "start": "node app.js"
+  },
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
