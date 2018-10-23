@@ -1,0 +1,273 @@
+body {
+    height: 100%;
+    min-height: 100vh;
+    background: url('/Users/ryanborgstrom 1/Developer-Portfolio/Ryan Borgstrom/images/maxresdefault.jpg') repeat center center fixed;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=50);
+}
+
+#list-example a {
+  background-color: #4d6484;
+}
+
+#ss {
+  height: 150px;
+  width: 150px;
+  margin-left: 95px;
+}
+
+#trucker {
+  height: 180px;
+  width: 180px;
+  margin-left: 75px;
+}
+
+
+.skillsPicture {
+  max-width: 100%;
+  min-width: 60px;
+  height: 125px;
+  object-fit: contain;
+  padding: 10px;
+  transition: transform .2s;
+  margin-bottom: 10px;
+}
+
+.iconTransition {
+  transition: transform .2s;
+}
+
+.iconTransition:hover {
+  transition: transform .2s;
+  transform: scale(1.5);
+}
+
+.skillsPicture:hover {
+  transform: scale(1.5);
+}
+
+html,
+body {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.container-fostrap {
+  display: table-cell;
+  padding: 1em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.fostrap-logo {
+  width: 100px;
+  margin-bottom: 15px
+}
+
+h1.heading {
+  color: #fff;
+  font-size: 1.15em;
+  font-weight: 900;
+  margin: 0 0 0.5em;
+  color: #505050;
+}
+
+@media (min-width: 450px) {
+  h1.heading {
+    font-size: 3.55em;
+  }
+}
+
+@media (min-width: 760px) {
+  h1.heading {
+    font-size: 3.05em;
+  }
+}
+
+@media (min-width: 900px) {
+  h1.heading {
+    font-size: 3.25em;
+    margin: 0 0 0.3em;
+  }
+}
+
+.card {
+  display: block;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: box-shadow .25s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-card {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  display: block;
+  overflow: hidden;
+}
+
+.img-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: all .25s ease;
+}
+
+.card-content {
+  padding: 15px;
+  text-align: left;
+}
+
+.card-title {
+  margin-top: 0px;
+  font-weight: 700;
+  font-size: 1.65em;
+}
+
+.card-title a {
+  color: #000;
+  text-decoration: none !important;
+}
+
+.card-read-more {
+  border-top: 1px solid #D4D4D4;
+}
+
+.card-read-more a {
+  text-decoration: none !important;
+  padding: 10px;
+  font-weight: 600;
+  text-transform: uppercase
+}
+
+.sticky-container {
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  right: -130px;
+  top: 230px;
+  width: 210px;
+  z-index: 1100;
+}
+
+.sticky li {
+  list-style-type: none;
+  background-color: black;
+  color: white;
+  height: 43px;
+  padding: 0px;
+  margin: 0px 0px 1px 0px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.sticky li:hover {
+  margin-left: -115px;
+}
+
+.sticky li img {
+  float: left;
+  margin: 5px 4px;
+  margin-right: 5px;
+}
+
+.sticky li p {
+  padding-top: 5px;
+  margin: 0px;
+  line-height: 16px;
+  font-size: 11px;
+}
+
+.sticky li p a {
+  text-decoration: none;
+  color: white;
+}
+
+.sticky li p a:hover {
+  text-decoration: underline;
+}
+
+
+.webmadewell {
+  background-color: rgb(15, 15, 49);
+}
+
+body {
+  margin: 0;
+}
+
+#me {
+  padding-left: 30px;
+}
+
+.sample-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: MidnightBlue;
+  opacity: 0.3;
+}
+
+.sample-header-section {
+  position: relative;
+  padding: 15% 0 10%;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.sample-section-wrap {
+  position: relative;
+  color: white;
+  background-color: rgb(58, 58, 58);
+}
+
+.sample-section {
+  position: relative;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
