@@ -8,9 +8,12 @@ body {
     background-color: #000;
 }
 
+body {
+  position: relative;
+}
 
 .container:hover {
-  opacity: 0.9;
+  opacity: 0.95;
   filter: alpha(opacity=50);
 }
 

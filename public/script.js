@@ -1,3 +1,6 @@
+$('body').scrollspy({ target: '#navbar-example' })
+
+
 function parallax_height() {
     var scroll_top = $(this).scrollTop();
     var sample_section_top = $(".sample-section").offset().top;
@@ -12,3 +15,4 @@ function parallax_height() {
   $(window).resize(function() {
     parallax_height();
   });
+
