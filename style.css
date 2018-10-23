@@ -5,6 +5,7 @@ body {
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
+    background-color: #000;
 }
 
 
@@ -215,19 +216,25 @@ h1.heading {
   text-decoration: underline;
 }
 
-
-.webmadewell {
-  background-color: rgb(15, 15, 49);
-}
-
-body {
-  margin: 0;
-}
-
 #me {
   padding-left: 30px;
 }
-
+.webmadewell {
+  background-color: white;
+}
+body {
+  margin: 0;
+}
+.sample-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-image: url('./images/maxresdefault.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+}
 .sample-header::before {
   content: "";
   position: absolute;
@@ -238,7 +245,6 @@ body {
   background-color: MidnightBlue;
   opacity: 0.3;
 }
-
 .sample-header-section {
   position: relative;
   padding: 15% 0 10%;
@@ -249,21 +255,17 @@ body {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
   font-family: "Montserrat", sans-serif;
 }
-
 h1 {
   font-weight: 500;
 }
-
 h2 {
   font-weight: 400;
 }
-
 .sample-section-wrap {
   position: relative;
+  background-color: rgb(32, 32, 32);
   color: white;
-  background-color: rgb(58, 58, 58);
 }
-
 .sample-section {
   position: relative;
   max-width: 640px;
@@ -271,3 +273,4 @@ h2 {
   margin-right: auto;
   padding: 40px;
 }
+
