@@ -10,7 +10,7 @@
     "path": "^0.12.7"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "npm start"
 },
   "devDependencies": {},
   "scripts": {
