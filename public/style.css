@@ -7,7 +7,12 @@ body {
     background-position: center;
     background-color: #000;
 }
-
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+  color: white;
+  opacity: 0.6;
+}
 
 .container:hover {
   opacity: 0.9;
