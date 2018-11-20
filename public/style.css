@@ -287,3 +287,10 @@ h2 {
   padding: 40px;
 }
 
+.pdf {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+}
