@@ -719,3 +719,8 @@ progress::-webkit-progress-value {
   background-color: #ff9170;
 }
 
+.card {
+  color: white;
+  padding-bottom: 50px;
+
+}
