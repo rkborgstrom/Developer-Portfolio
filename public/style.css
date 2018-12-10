@@ -724,5 +724,8 @@ progress::-webkit-progress-value {
 .card {
   color: white;
   padding-bottom: 50px;
+}
 
+.mail {
+  color: white;
 }
