@@ -361,7 +361,9 @@ a.navbar-brand .fa-globe:hover
   max-width: 996px;
 }
 .splash {
-  background:url("/images/maxresdefault.jpg") no-repeat fixed center bottom;
+  background:url("/images/maxresdefault.jpg") repeat center center fixed;
+  height: 60%;
+  min-height: 60vh;
 	background-size: cover;
 	color: #fff;
 }
