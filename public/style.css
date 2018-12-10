@@ -323,6 +323,8 @@ ul.navbar-nav li {
 @media only screen and (max-width:767px) {
   ul.navbar-nav {
     float: none;
+    background-color: #ff9170;
+
   }
 }
 
@@ -363,7 +365,7 @@ a.navbar-brand .fa-globe:hover {
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #fff !important;
+  background-color: #ff9170 !important;
 }
 
 .container {
