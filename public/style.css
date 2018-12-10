@@ -504,7 +504,7 @@ hr.star-light {
 }
 
 hr.star-portfolio {
-  border-color: white;
+  border-color: black;
 }
 
 hr.star-portfolio:after {
@@ -514,7 +514,7 @@ hr.star-portfolio:after {
 
 hr.star-light:after {
   color: #fff;
-  background-color: rgb(13, 79, 136);
+  background-color: white;
 }
 
 p.content-text {
