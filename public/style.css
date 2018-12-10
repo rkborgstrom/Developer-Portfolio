@@ -299,7 +299,7 @@ h2 {
 
 * {
   box-sizing: border-box;
-  font-family: helvetica !important;
+  font-family: helvetica ;
 }
 #menu
 {
