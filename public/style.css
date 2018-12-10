@@ -465,7 +465,7 @@ h1.intro-text
 .splash .continue a:hover {
   background-color: rgba(255, 255, 255, .25);
 }
-#about,#portfolio,#contact
+#about,#projects,#education,#skills
 {
   padding-top:4em!important;
 }
@@ -723,7 +723,6 @@ progress::-webkit-progress-value {
 
 .card {
   color: white;
-  padding-bottom: 50px;
 }
 
 .mail {
