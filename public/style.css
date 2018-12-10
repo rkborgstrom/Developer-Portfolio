@@ -303,7 +303,7 @@ h2 {
 }
 
 #menu {
-  background-color: #f78f1e;
+  background-color: #eaab00;
 }
 
 .starter-template {
@@ -323,7 +323,7 @@ ul.navbar-nav li {
 @media only screen and (max-width:767px) {
   ul.navbar-nav {
     float: none;
-    background-color: #f78f1e;
+    background-color: #eaab00;
 
   }
 }
@@ -365,7 +365,7 @@ a.navbar-brand .fa-globe:hover {
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #f78f1e !important;
+  background-color: #eaab00 !important;
 }
 
 .container {
@@ -717,7 +717,7 @@ progress::-webkit-progress-value {
 }
 
 #skills {
-  background-color: #f78f1e;
+  background-color: #eaab00;
 }
 
 .card {
