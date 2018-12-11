@@ -260,3 +260,5 @@ $(function(){
         $(this).val(0).animate({ value: max }, { duration: 2000, easing: 'easeOutCirc' });
           });
     });
+
+    

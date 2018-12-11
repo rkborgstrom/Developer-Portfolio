@@ -303,7 +303,7 @@ h2 {
 }
 
 #menu {
-  background-color: #eaab00;
+  background-color: #8e303d;
 }
 
 .starter-template {
@@ -323,7 +323,7 @@ ul.navbar-nav li {
 @media only screen and (max-width:767px) {
   ul.navbar-nav {
     float: none;
-    background-color: #eaab00;
+    background-color: #8e303d;
 
   }
 }
@@ -365,7 +365,7 @@ a.navbar-brand .fa-globe:hover {
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #eaab00 !important;
+  background-color: #8e303d !important;
 }
 
 .container {
@@ -374,7 +374,7 @@ a.navbar-brand .fa-globe:hover {
 }
 
 .splash {
-  background: url("/images/maxresdefault.jpg") repeat center center fixed;
+  background: url("./images/back.jpg") repeat center center fixed;
   height: 60%;
   min-height: 60vh;
   background-size: cover;
@@ -459,7 +459,7 @@ section h2 {
 
 section.success {
   color: #fff;
-  background: rgb(13, 79, 136);
+  background: #d6bca6;
   padding: 2%;
 }
 
@@ -563,7 +563,8 @@ p.content-text {
 /* Contact */
 .contact-me-container {
   padding: 3%;
-  background: rgb(13, 79, 136);
+  background: #d6bca6;
+  color: black
 }
 
 .fa-user,
@@ -582,7 +583,7 @@ Footer
 ======================== */
 
 footer {
-  background-color: #2C3E50;
+  background-color: #8e303d;
   color: #fff;
   font-size: 1.5em;
   text-align: center;
@@ -676,7 +677,10 @@ hr.copyright {
 .btn {
   margin-bottom: 5px;
   margin-left: 5px;
-}
+  background-color: #8e303d;
+  color: white;
+};
+
 
 .card-text {
   margin-top: 5px;
@@ -717,11 +721,11 @@ progress::-webkit-progress-value {
 }
 
 #skills {
-  background-color: #eaab00;
+  background-color: #8e303d;
 }
 
 .card {
-  color: white;
+  color: black;
 }
 
 .mail {
@@ -734,3 +738,18 @@ progress::-webkit-progress-value {
   padding-bottom: 50px;
   padding-top: 50px;
 }
+
+
+#about {
+ color: #8e303d;
+}
+
+#projects {
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
+.card-text {
+  color:black;
+}
+
