@@ -26,9 +26,6 @@ ul.navbar-nav li {
     float: none;
     background-color: #8e303d;
   }
-  .mine {
-    height: 120px;
-  }
 }
 
 .container-fluid {
@@ -392,7 +389,7 @@ span {
   color: white;
   text-align: center;
   margin: 0;
-  height: 420px;
+  height: 310px;
 }
 
 .animate {
@@ -403,7 +400,7 @@ span {
   border-width: 4px 0;
   padding: 1.5em 0em;
   position: absolute;
-  top: 16%;
+  top: 8%;
   left: 50%;
   width: 40em;
   margin: 0 0 0 -20em;
