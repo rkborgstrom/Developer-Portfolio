@@ -761,7 +761,7 @@ progress::-webkit-progress-value {
   color: white;
   text-align: center;
   margin: 0;
-  height: 370px;
+  height: 420px;
 }
 
 .animate {
@@ -772,7 +772,7 @@ progress::-webkit-progress-value {
   border-width: 4px 0;
   padding: 1.5em 0em;
   position: absolute;
-  top: 10%;
+  top: 13%;
   left: 50%;
   width: 40em;
   margin: 0 0 0 -20em;
