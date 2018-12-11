@@ -69,70 +69,9 @@ a.navbar-brand .fa-globe:hover {
   background-color: #8e303d !important;
 }
 
-.splash {
-  background: url("./images/back.jpg") repeat center center fixed;
-  height: 60%;
-  min-height: 60vh;
-  background-size: cover;
-  color: #fff;
-}
-
-.splash .container {
-  padding-top: 15vh;
-  padding-bottom: 10vh;
-}
-
-.profile-image {
-  border-radius: 50%;
-  display: block;
-  max-height: 250px;
-  max-width: 250px;
-  margin: 0 auto 1em;
-  width: 100%;
-  opacity: 0.85;
-}
-
-.splash h1 {
-  font-size: 40px;
-  margin-bottom: .15em;
-  text-align: center;
-}
-
-.splash .lead,
-.splash .continue {
-  display: inline-block;
-  text-align: center;
-}
-
 h1.intro-text {
   margin: 0;
   color: #fff;
-}
-
-.splash .lead {
-  font-size: 30px;
-  margin-bottom: 1em;
-  font-family: Rockwell;
-}
-
-.splash .continue {
-  font-size: 3em;
-  display: block;
-}
-
-.splash .continue a {
-  border: 2px solid #fff;
-  border-radius: 100%;
-  color: #fff;
-  display: inline-block;
-  text-decoration: none;
-  width: 40px;
-  height: 40px;
-  font-size: 30px;
-}
-
-.splash .continue a:hover {
-  background-color: rgba(255, 255, 255, .25);
 }
 
 #about,
