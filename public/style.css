@@ -679,7 +679,9 @@ hr.copyright {
   margin-left: 5px;
   background-color: #8e303d;
   color: white;
-};
+}
+
+;
 
 
 .card-text {
@@ -741,7 +743,7 @@ progress::-webkit-progress-value {
 
 
 #about {
- color: #8e303d;
+  color: #8e303d;
 }
 
 #projects {
@@ -750,6 +752,69 @@ progress::-webkit-progress-value {
 }
 
 .card-text {
-  color:black;
+  color: black;
 }
 
+.mine {
+  font: 400 1em/1.5 "Neuton";
+  background: #090d00;
+  color: rgba(255, 255, 255, .25);
+  text-align: center;
+  margin: 0;
+  height: 500px;
+}
+
+.animate {
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  display: inline-block;
+  border: 4px double rgba(255, 255, 255, .25);
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+}
+
+.animate span {
+
+  font: 700 5em/1 "Oswald", sans-serif;
+  letter-spacing: 50;
+  padding: .25em 0 .325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 255, 255, .5);
+
+  /* Clip Background Image */
+
+  background: url(http://static.colourlovers.com/uploads/images/4/44/44982.pic.jpg) repeat-y;
+  -webkit-background-clip: text;
+
+  /* Animate Background Image */
+
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 10s linear infinite;
+
+  /* Activate hardware acceleration for smoother animations */
+
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+  0% {
+    background-position: -200% 50%;
+  }
+
+  100% {
+    background-position: 250% 50%;
+  }
+
+  0% {
+    background-position: -100% 50%;
+  }
+}
