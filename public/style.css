@@ -381,6 +381,8 @@ span {
 
 .card-text {
   color: black;
+  font-size: 1.3em;
+  padding-right: 5px;
 }
 
 .mine {
