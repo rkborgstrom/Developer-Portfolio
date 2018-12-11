@@ -25,7 +25,9 @@ ul.navbar-nav li {
   ul.navbar-nav {
     float: none;
     background-color: #8e303d;
-
+  }
+  .mine {
+    height: 320px;
   }
 }
 
