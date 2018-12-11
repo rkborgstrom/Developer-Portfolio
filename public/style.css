@@ -300,6 +300,11 @@ h2 {
 * {
   box-sizing: border-box;
   font-family: helvetica;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+
 }
 
 #menu {
