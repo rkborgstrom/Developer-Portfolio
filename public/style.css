@@ -756,7 +756,7 @@ progress::-webkit-progress-value {
 }
 
 .mine {
-  font: 400 1em/1.5 "Neuton";
+  font: 400 0.8em/1.5 "Neuton";
   background: #090d00;
   color: rgba(255, 255, 255, .25);
   text-align: center;
