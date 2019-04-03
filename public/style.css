@@ -454,3 +454,18 @@ span {
 .number {
   color: white !important;
 }
+
+.experience {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 30vh;
+  background-color: #8e303d;
+  color: white;
+  font-family: helvetica;
+  font-size: 1.3em;
+  padding-left: 15px;
+  padding-right: 15px;
+}
