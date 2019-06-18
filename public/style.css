@@ -100,7 +100,7 @@ h1.intro-text {
   font-size: 4em;
 }
 #splashs{
-  background: url('../images/mt.jpg') repeat center center fixed;
+  /* background: url('../images/mt.jpg') repeat center center fixed;
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -110,7 +110,17 @@ h1.intro-text {
   margin-top: 50px;
   padding-top: 15%;
   padding-bottom: 50px;
-  color: #fff;
+  color: #fff; */
+
+  height: 100%;
+  min-height: 100vh;
+  background: url('../images/mt.jpg') repeat center center fixed;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 70px;
+  color: white;
+  margin-top: 70px;
 
 }
 
