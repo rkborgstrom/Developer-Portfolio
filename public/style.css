@@ -84,7 +84,7 @@ h1.intro-text {
 
 
 /* NAME */
-.mine {
+/* .mine {
   font: 400 1em/1.5 "Neuton";
   background: #090d00;
   color: white;
@@ -94,7 +94,7 @@ h1.intro-text {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .name {
   font-size: 4em;
@@ -121,7 +121,6 @@ h1.intro-text {
   padding-top: 70px;
   color: white;
   margin-top: 70px;
-
 }
 
 
