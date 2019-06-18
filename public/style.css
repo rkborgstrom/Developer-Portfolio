@@ -96,15 +96,11 @@ h1.intro-text {
 .animate {
   text-transform: uppercase;
   letter-spacing: .5em;
-  display: inline-block;
-  border: 4px double white;
   border-width: 4px 0;
-  padding: 1.5em 0em;
-  position: absolute;
-  top: 6.5%;
-  left: 50%;
+  padding-top: 100px;
+  position: center;
   width: 40em;
-  margin: 0 0 0 -20em;
+
 }
 
 .animate span {
@@ -146,6 +142,7 @@ h1.intro-text {
     background-position: -100% 50%;
   }
 }
+
 /* END NAME SECTION */
 
 
@@ -231,7 +228,7 @@ p.content-text {
   border-radius: 4px;
 }
 
-#projects{
+#projects {
   background-color: rgb(40, 40, 40);
 }
 
@@ -269,6 +266,7 @@ p.content-text {
 #rp {
   color: white;
 }
+
 /* CONTACT */
 .contact-me-container {
   padding: 3%;
@@ -355,11 +353,11 @@ a.link-linkedin:hover {
   background-color: #007bb6;
   color: #fff;
 }
- 
- a.link-github:hover {
+
+a.link-github:hover {
   background-color: black;
   color: white;
-} 
+}
 
 .btn-default {
   color: #333;
