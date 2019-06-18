@@ -1,5 +1,4 @@
 * {
-  box-sizing: border-box;
   font-family: helvetica;
   margin: 0 auto;
 
@@ -83,35 +82,11 @@ h1.intro-text {
 }
 
 
-/* NAME */
-/* .mine {
-  font: 400 1em/1.5 "Neuton";
-  background: #090d00;
-  color: white;
-  text-align: center;
-  margin: 0 auto;
-  height: 280px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .name {
-  font-size: 4em;
+  font-size: 3.5em;
 }
 #splashs{
-  /* background: url('../images/mt.jpg') repeat center center fixed;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  min-height: 100vh;
-  background-repeat: repeat;
-  width: 100%;
-  margin-top: 50px;
-  padding-top: 15%;
-  padding-bottom: 50px;
-  color: #fff; */
-
   height: 100%;
   min-height: 100vh;
   background: url('../images/mt.jpg') repeat center center fixed;
@@ -120,14 +95,7 @@ h1.intro-text {
   background-position: center;
   padding-top: 70px;
   color: white;
-  margin-top: 70px;
 }
-
-
-
-
-
-
 
 
 
@@ -270,9 +238,6 @@ p.content-text {
   margin-bottom: 10px;
 }
 
-body {
-  background-color: rgb(50, 50, 50);
-}
 
 /* FOOTER */
 footer {
