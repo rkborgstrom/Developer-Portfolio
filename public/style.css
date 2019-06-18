@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
   font-family: helvetica;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0 auto;
 }
 
 #menu {
@@ -222,6 +227,10 @@ p.content-text {
   border-radius: 4px;
 }
 
+#projects{
+  background-color: rgb(40, 40, 40);
+}
+
 .portfolio-card:hover {
   box-shadow: 0px 10px 10px #888888;
   cursor: pointer
@@ -272,6 +281,9 @@ p.content-text {
   margin-bottom: 10px;
 }
 
+body {
+  background-color: rgb(50, 50, 50);
+}
 
 /* FOOTER */
 footer {
@@ -425,21 +437,20 @@ span {
   color: white;
 }
 
-.pdf {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 50px;
-  padding-top: 50px;
+#btn1 {
+  margin-top: 5px;
 }
 
 #about {
   color: #8e303d;
 }
 
-#projects {
-  background-color: rgb(32, 32, 32);
-  color: white;
+.pro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .card-text {
   color: black;
@@ -449,6 +460,10 @@ span {
 
 #mail {
   color: white;
+}
+
+#edu {
+  padding-bottom: 50px;
 }
 
 .number {
