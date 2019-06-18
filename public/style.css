@@ -91,33 +91,26 @@ h1.intro-text {
   text-align: center;
   margin: 0 auto;
   height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.animate {
-  text-transform: uppercase;
-  letter-spacing: .5em;
-  border-width: 4px 0;
-  padding-top: 110px;
-  position: center;
+.name {
+  font-size: 6em;
+}
+#splashs{
+  background: url('../images/mt.jpg') repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  margin-top: 50px;
+  padding-top: 15%;
+  padding-bottom: 50px;
+  color: #fff;
 
 }
 
-.animate span {
-  font: 600 3em/1 "Oswald", sans-serif;
-  letter-spacing: 50;
-
-
-  /* Clip Background Image */
-
-  background: url(http://static.colourlovers.com/uploads/images/4/44/44982.pic.jpg) repeat-y;
-  -webkit-background-clip: text;
-
-  /* Animate Background Image */
-
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: aitf 10s linear infinite;
-
-}
 
 
 #about,
