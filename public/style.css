@@ -1,11 +1,15 @@
 * {
   box-sizing: border-box;
   font-family: helvetica;
-  margin: 0 auto;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 body {
   margin: 0 auto;
+  margin-right: 0;
+  margin-left: 0;
+
 }
 
 #menu {
@@ -262,7 +266,9 @@ p.content-text {
   padding: 5px;
 }
 
-
+#rp {
+  color: white;
+}
 /* CONTACT */
 .contact-me-container {
   padding: 3%;
