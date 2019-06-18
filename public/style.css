@@ -97,19 +97,26 @@ h1.intro-text {
 }
 
 .name {
-  font-size: 6em;
+  font-size: 4em;
 }
 #splashs{
   background: url('../images/mt.jpg') repeat center center fixed;
   background-size: cover;
   background-position: center;
   height: 100%;
+  min-height: 100vh;
+  background-repeat: repeat;
   margin-top: 50px;
   padding-top: 15%;
   padding-bottom: 50px;
   color: #fff;
-
 }
+
+
+
+
+
+
 
 
 
