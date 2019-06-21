@@ -11,6 +11,58 @@ body {
 
 }
 
+header {
+  position: relative;
+  display: table;
+  background: #28363A;
+  background-image: url("../images/mt.jpg");
+  background-size: cover;
+  background-position: top 40%;
+  width: 100%;
+  height: 70vh;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+  z-index: 0;
+}
+
+header .top-message {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+}
+
+header .top-message h1 {
+  font-size: 5rem;
+  color: white;
+  font-weight: 100;
+}
+
+header .top-message hr {
+  border: 3px solid #8e303d;
+  width: 15%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  margin-top: 0.2rem;
+}
+
+header .top-message h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.932);
+}
+
+.site-wrapper {
+  background: rgb(32, 32, 32);
+}
+
+.main-content {
+  width: 80%;
+  margin: 50px auto 50px auto;
+  padding: 50px 0;
+  color: white;
+}
+
 #menu {
   background-color: #8e303d;
 }
@@ -394,6 +446,9 @@ span {
 
 #about {
   color: #8e303d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pro {
