@@ -8,6 +8,7 @@ body {
   margin: 0 auto;
   margin-right: 0;
   margin-left: 0;
+  background-color: black;
 
 }
 
@@ -28,14 +29,16 @@ header .top-message {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  color: white;
+  color: #cd8088
   padding-top: 30px;
 }
 
 header .top-message h1 {
-  font-size: 5rem;
-  color: white;
+  font-size: 7rem;
+  color: #8e303d;
   font-weight: 100;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: white;
 }
 
 header .top-message hr {
@@ -44,12 +47,14 @@ header .top-message hr {
   margin: 0 auto;
   margin-bottom: 1rem;
   margin-top: 0.2rem;
+  
 }
 
 header .top-message h2 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.932);
+  font-size: 4rem;
+  color: white;
+  -webkit-text-stroke-width: 1.4px;
+  -webkit-text-stroke-color: #8e303d;
 }
 
 .site-wrapper {
@@ -449,6 +454,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .pro {
