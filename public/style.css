@@ -60,10 +60,19 @@ header .top-message h2 {
   background: rgb(32, 32, 32);
 }
 
+#pin {
+  width: 60px;
+  height: 60px;
+}
+
+.well {
+  background-color:#202020 !important;
+  border: none;
+  font-size: 3em;
+}
 .main-content {
-  width: 80%;
+  width: 90%;
   margin: 50px auto 50px auto;
-  padding: 50px 0;
   color: white;
 }
 
@@ -167,9 +176,6 @@ section h2 {
 section.success {
   color: #fff;
   background: #d6bca6;
-  margin-right: -25px;
-  margin-left: -25px;
-
 }
 
 section.success a {
